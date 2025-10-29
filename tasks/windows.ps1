@@ -36,12 +36,12 @@ Param(
   $Set_Noop,
 
   [Parameter(Mandatory = $False)]
-  [ValidateScript({ $_ -match '\w+=\w+' })]
+  [ValidateScript({ $_ -match '[\w\.]+=[\w\.]+' })]
   [String[]]
   $Custom_Attribute,
 
   [Parameter(Mandatory = $False)]
-  [ValidateScript({ $_ -match '\w+=\w+' })]
+  [ValidateScript({ $_ -match '\w+=[\w\.]+' })]
   [String[]]
   $Extension_Request,
 

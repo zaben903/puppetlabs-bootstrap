@@ -58,13 +58,13 @@ The DNS alt names with which the agent certificate should be generated
 
 ##### `custom_attribute`
 
-Data type: `Optional[Array[Pattern[/\w+=\w+/]]]`
+Data type: `Optional[Array[Pattern[/[\w\.]+=[\w\.]+/]]]`
 
 This setting is added to puppet.conf and included in the custom_attributes section of csr_attributes.yaml
 
 ##### `extension_request`
 
-Data type: `Optional[Array[Pattern[/\w+=\w+/]]]`
+Data type: `Optional[Array[Pattern[/\w+=[\w\.]+/]]]`
 
 This setting is added to puppet.conf and included in the extension_requests section of csr_attributes.yaml
 
@@ -120,13 +120,13 @@ The DNS alt names with which the agent certificate should be generated
 
 ##### `custom_attribute`
 
-Data type: `Optional[Array[Pattern[/\w+=\w+/]]]`
+Data type: `Optional[Array[Pattern[/[\w\.]+=[\w\.]+/]]]`
 
 This setting is added to puppet.conf and included in the custom_attributes section of csr_attributes.yaml
 
 ##### `extension_request`
 
-Data type: `Optional[Array[Pattern[/\w+=\w+/]]]`
+Data type: `Optional[Array[Pattern[/\w+=[\w\.]+/]]]`
 
 This setting is added to puppet.conf and included in the extension_requests section of csr_attributes.yaml
 
@@ -182,13 +182,13 @@ The DNS alt names with which the agent certificate should be generated
 
 ##### `custom_attribute`
 
-Data type: `Optional[Array[Pattern[/\w+=\w+/]]]`
+Data type: `Optional[Array[Pattern[/[\w\.]+=[\w\.]+/]]]`
 
 This setting is added to puppet.conf and included in the custom_attributes section of csr_attributes.yaml
 
 ##### `extension_request`
 
-Data type: `Optional[Array[Pattern[/\w+=\w+/]]]`
+Data type: `Optional[Array[Pattern[/\w+=[\w\.]+/]]]`
 
 This setting is added to puppet.conf and included in the extension_requests section of csr_attributes.yaml
 
